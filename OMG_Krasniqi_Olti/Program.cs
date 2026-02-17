@@ -17,7 +17,7 @@ namespace OMG_Krasniqi_Olti
             View view = new View();
 
             view.SetController(controller);
-            controller.SetView(view);
+            controller.setView(view);
 
             Application.Run(view);
         }

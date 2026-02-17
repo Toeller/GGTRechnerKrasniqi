@@ -10,7 +10,7 @@
             this.model = model;
         }
 
-        public void SetView(IView view)
+        public void setView(IView view)
         {
             this.view = view;
         }

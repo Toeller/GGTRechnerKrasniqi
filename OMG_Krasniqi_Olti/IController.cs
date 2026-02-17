@@ -2,7 +2,7 @@
 {
     public interface IController
     {
-        void SetView(IView view);
+        void setView(IView view);
         int GgtBerechnen(int zahl1, int zahl2);
     }
 }
