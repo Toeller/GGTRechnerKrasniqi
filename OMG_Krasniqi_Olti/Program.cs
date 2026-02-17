@@ -14,7 +14,7 @@ namespace OMG_Krasniqi_Olti
 
             IModel model = new Model();
             IController controller = new Controller(model);
-            Form1 view = new Form1();
+            View view = new View();
 
             view.SetController(controller);
             controller.SetView(view);

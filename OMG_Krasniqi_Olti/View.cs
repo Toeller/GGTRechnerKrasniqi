@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace OMG_Krasniqi_Olti
 {
-    public class Form1 : Form, IView
+    public class View : Form, IView
     {
         private IController controller;
 
@@ -12,7 +12,7 @@ namespace OMG_Krasniqi_Olti
         Button btnBerechnen = new Button();
         Label lblErgebnis = new Label();
 
-        public Form1()
+        public View()
         {
             SetupUI();
         }
